@@ -94,13 +94,15 @@ If you're a developer and want to contribute code, follow these steps:
 4. Submit a pull request (PR) with a clear description of your changes.
 5. I'll review your PR and provide feedback, and once it's approved, I'll merge your contribution into the project.
 
-Code Standards
+### Code Standards
+
 To maintain code quality and consistency, please follow the coding guidelines provided in the project's documentation. If you're unsure about the coding standards, feel free to ask for guidance.
 
-Review Process
+### Review Process
+
 All contributions, whether bug reports, feature requests, or code changes, will be reviewed by the project maintainers. I'll provide feedback and discuss any necessary adjustments with you.
 
-Thank you for considering contributing to our project. Your involvement helps make it better for everyone!
+Thank you for considering contributing to this project. Your involvement helps make it better for everyone!
 
 ## Acknowledgments
 
