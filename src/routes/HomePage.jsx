@@ -4,12 +4,10 @@ import Repos from "../components/Repos/Repos";
 
 function HomePage() {
   return (
-    <>
-      <div className={styles.wrapper}>
-        <Aside />
-        <Repos />
-      </div>
-    </>
+    <div className={styles.wrapper}>
+      <Aside />
+      <Repos />
+    </div>
   );
 }
 
