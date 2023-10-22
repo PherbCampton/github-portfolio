@@ -1,0 +1,51 @@
+.wrapper {
+  overflow-y: auto;
+}
+
+.fullName {
+  margin: 0;
+  padding: 0;
+}
+
+.role {
+  margin: 0;
+  opacity: 1;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.description {
+  max-width: 520px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.flex:hover,
+.flex:active {
+  .line {
+    width: 80px;
+    opacity: 1;
+    transition: ease-in-out 300ms;
+  }
+  &.flex h4 {
+    opacity: 1;
+  }
+}
+
+.line {
+  width: 40px;
+  height: 1px;
+  opacity: 0.4;
+  background-color: aliceblue;
+  transition: ease-in-out 300ms;
+}
+
+.flex h4 {
+  opacity: 0.7;
+  font-weight: 500;
+}

@@ -1,0 +1,63 @@
+.wrapper {
+  position: -webkit-sticky;
+  overflow-y: none;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: fit-content;
+}
+
+.fullName {
+  margin: 0;
+  padding: 0;
+}
+
+.role {
+  margin: 0;
+  opacity: 1;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.description {
+  max-width: 320px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.flex:hover,
+.flex:active {
+  .line {
+    width: 80px;
+    opacity: 1;
+    transition: ease-in-out 300ms;
+  }
+  &.flex p {
+    opacity: 1;
+  }
+}
+
+.line {
+  width: 40px;
+  height: 1px;
+  opacity: 0.4;
+  background-color: aliceblue;
+  transition: ease-in-out 300ms;
+}
+
+.flex p {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+@media (min-width: 900px) {
+  .wrapper {
+    position: sticky;
+    top: 10%;
+  }
+}

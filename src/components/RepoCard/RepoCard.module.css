@@ -1,0 +1,46 @@
+.wrapper:hover > .repoCard:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+
+.repoCard {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: ease-in 300ms;
+  overflow: hidden;
+  min-width: 400px;
+}
+
+.repoCard:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  transition: ease-in 300ms;
+
+  .repoName {
+    color: #58dacc;
+    transition: ease-in 300ms;
+  }
+}
+
+.repoName {
+  font-size: 18px;
+  opacity: 1;
+  padding-top: 0;
+  margin-top: 0;
+  font-weight: 600;
+  transition: ease-in 300ms;
+}
+
+.language,
+.date,
+.visibility {
+  padding: 5px 0;
+  font-size: 14px;
+
+  margin: 0;
+}
